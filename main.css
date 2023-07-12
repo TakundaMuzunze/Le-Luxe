@@ -444,6 +444,11 @@ input[type="submit"]:hover{
 }
 
 @media (max-width:479px){ 
+  button{
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  
   .title-text{
     padding: 20px;
   }
@@ -464,6 +469,11 @@ input[type="submit"]:hover{
   .new-product-grid{
     flex-direction: column;
     gap: 40px;
+  }
+
+  .sales-banner{
+    background-attachment: none;
+    background-size: contain;
   }
 
   .category-grid{
