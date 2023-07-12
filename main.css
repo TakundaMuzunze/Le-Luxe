@@ -49,6 +49,8 @@ a{
 }
 
 button{
+  font-size: 16px;
+  padding: 16px 32px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -141,7 +143,6 @@ button{
 .text-container{
     color: white;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .btn1{
@@ -149,9 +150,8 @@ button{
     color: white;
     border-color: white;
     border-width: 2px;
-    padding: 10px 50px 10px 50px;
 
-    font-size: 14px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 
@@ -168,16 +168,19 @@ button{
 
 /*About Section*/
 .container{
-  padding: 40px;
+  padding: 40px 0;
 }
 
 .title-text{
-    text-align: center;
-    padding: 40px 0;
+  text-align: center;
 }
 
-.title-text h1{
-    margin-bottom: -10px;
+.title-text h2{
+  margin-bottom: 5px;
+}
+
+.title-text p{
+  margin-top: 5px;
 }
 
 /*Featured*/
@@ -198,7 +201,8 @@ button{
 }
 
 .product-info p:nth-child(1){
-  font-weight:bolder;
+  text-transform: uppercase;
+  /* font-weight:bolder; */
   color: #919191;
 }
   
@@ -208,13 +212,11 @@ button{
     border-color: black;
     border-width: 2px;
 
-    padding: 10px 50px 10px 50px;
-    font-size: 14px;
     text-transform: uppercase;
 
     display: block;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .btn3:hover{
@@ -274,6 +276,7 @@ button{
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
   max-width: 1200px;
+  padding: 20px;
   margin: 0 auto;
 }
 
