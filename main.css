@@ -446,21 +446,30 @@ input[type="submit"]:hover{
 @media (max-width:479px){ 
   .title-text{
     padding: 20px;
-  }  
+  }
+
   .card-grid-collections{
     flex-direction: column;
   }
+
   .card-info p{
     max-width: 250px;
-  }  
+  }
+
   .card-item > img{
     width: 250px;
     text-align: center;
   }
-  .column-grid1{
-    justify-content: center;
-    align-items: center;
+
+  .new-product-grid{
+    flex-direction: column;
+    gap: 40px;
   }
+
+  .category-grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .cat-item > img{
     width: 150px;
   } 
