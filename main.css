@@ -305,6 +305,19 @@ button{
     align-items: center;
 }
 
+.banner-btn{
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  font-weight: bolder;
+}
+
+.banner-btn:hover{
+  background-color: black;
+  border: 2px solid white;
+  transition: .2s ease;
+}
+
 /*Footer Section*/
 .ft-main-item ul {
     list-style: none;
