@@ -36,5 +36,4 @@ A live demo of the Le Luxe ecommerce website will be available soon.
 
 ## Acknowledgments 💡
 
-I would like to express my gratitude to all the resources, tutorials, and inspirations that contributed to the development of Le Luxe. Special thanks to the Frontend Mentor community for providing valuable challenges and opportunities for growth.
-
+I would like to express my gratitude to all the resources, tutorials, and inspirations that contributed to the development of Le Luxe. 
