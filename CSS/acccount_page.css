@@ -57,6 +57,11 @@ a{
     text-decoration: none;
 }
 
+button{
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /*Navigation Bars*/
 .navbar {
     font-size: 18px;
@@ -203,22 +208,24 @@ a{
     color: transparent;
 }
   
-.submitBtn {
+.form-button {
     display: block;
-    margin-left: auto;
+    margin: 0 auto;
+    width: 150px;
     padding: 15px 30px;
-    border: none;
-    background-color: #242424;
+    background-color: transparent;
+    border: 2px solid #242424;
     color: #242424;
-    border-radius: 6px;
-    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 400;
     font-size: 16px;
     margin-top: 30px;
 }
   
-.submitBtn:hover {
+.form-button:hover {
     background-color: #242424;
-    transform: translateY(-2px);
+    color: white;
+    transition: .2s ease;
 }
 .input:focus + .label {
     top: -7px;
@@ -249,33 +256,6 @@ a{
 .heading-text > p{
     width: 40%;
     margin: 0 auto;
-}
-
-.btn1{
-    background-color: transparent;
-    color: black;
-    border-color: black;
-    border-width: 2px;
-
-    padding: 10px 50px 10px 50px;
-    margin-bottom: 20px;
-
-    font-size: 14px;
-    text-transform: uppercase;
-
-    margin: auto;
-    display: block;
-}
-.btn1 a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.btn1:hover{
-    background-color: black;
-    border-color: black;
-    color: white;
-    transition: .5s;
 }
 
 /*Footer Section*/
