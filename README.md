@@ -2,6 +2,8 @@
 
 🛍️ Le Luxe is an ecommerce website specializing in selling high-end luxury furniture. It offers a wide range of products across different categories, allowing users to browse and purchase luxurious furniture items.
 
+![KickTriviale Luxe Preview](/2023-07-10.png)
+
 ## Overview 📋
 
 Welcome to Le Luxe! This project aims to create a professional and sleek ecommerce website for luxury furniture shopping. The website is designed to be fully responsive, ensuring optimal viewing and seamless user experience on various devices.
