@@ -386,10 +386,7 @@ input[type="submit"]:hover{
   .cat-icons{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
     padding: 20px;
-    
-    
   }
 
   .product-grid{

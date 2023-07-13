@@ -20,8 +20,8 @@ body{
     overflow-x: hidden;
 }
 
-h1,h2,h3,h4,h6,p,a{
-    font-family: Poppins;
+body p{
+    font-size: 20px;
 }
 
 h1{
@@ -37,15 +37,6 @@ hr{
 a{
     color: inherit;
     text-decoration: none;
-}
-
-@media only screen and (max-width: 768px) {
-    body h1{
-        font-size:  16px;
-    }
-    body p{
-        font-size: 14px;
-    }
 }
 
 /*Navigation Bars*/
@@ -171,6 +162,12 @@ i {
 .description p {
     text-transform: capitalize;
 }
+
+.product-details p:first-of-type:not(.description p) {
+    text-transform: uppercase;
+    color: #919191;
+}
+    
 
 .description p:nth-child(4){
     color: red;
