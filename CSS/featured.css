@@ -150,6 +150,10 @@ display: none;
   margin: 0 auto;
 }
 
+.container{
+  padding: 40px 0;
+}
+
 .mini-nav{
   display: flex;
   flex-wrap: wrap;
@@ -162,8 +166,8 @@ display: none;
   font-weight: bold;
 }
 
-.container{
-  padding: 40px 0;
+.subtitle-heading{
+  padding: 0 40px;
 }
 
 .cat-icons{
@@ -172,7 +176,7 @@ display: none;
   justify-content: flex-start;
   align-items: center;
   column-gap: 20px;
-  padding-bottom: 40px;
+  padding: 20px 40px;
 }
 
 .icon img{
@@ -207,10 +211,14 @@ display: none;
 
 label {
 	color: #666;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 500;
-	line-height: 2em;
 	text-transform: uppercase;
+}
+
+select{
+  padding: 5px 0;
+  border-radius: 5px;
 }
 
 .product-grid{
