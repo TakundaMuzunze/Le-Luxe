@@ -26,13 +26,17 @@ Welcome to Le Luxe! This project aims to create a professional and sleek ecommer
 - Git
 - Chrome Dev Tools
 
-## Preview 🖼️
-
 [Include preview images or screenshots of your Le Luxe ecommerce website]
 
 ## Live Demo 💻
 
 A live demo of the Le Luxe ecommerce website will be available soon.
+
+## ⚙️ Installation
+
+1. Clone this repository.
+2. Open the `index.html` file in your preferred web browser.
+
 
 ## Acknowledgments 💡
 
