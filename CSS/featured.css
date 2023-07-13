@@ -151,7 +151,11 @@ display: none;
 }
 
 .mini-nav{
-  padding-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 40px;
 }
 
 .mini-nav p .bold-word {
@@ -159,20 +163,21 @@ display: none;
 }
 
 .subtitle-heading{
-  margin-top: 40px;
+  
 }
 
 .cat-icons{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-
+  justify-content: flex-start;
+  align-items: center;
   column-gap: 20px;
   padding-bottom: 40px;
 }
 
 .icon img{
-  width: 150px;
+  width: 180px;
+  height: 100%;
 }
 
 /*Product Grid*/
