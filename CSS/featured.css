@@ -357,27 +357,50 @@ input[type="submit"]:hover{
 }
 
 /*Media Queries*/
-@media (max-width: 467px){
-  .subtitle-heading{
-    margin-top: 0;
+@media (min-width: 320px) and (max-width: 479px){
+  body h1{
+    font-size: 24px;
   }
-  .mini-nav{
-    padding-left: 20px;
+  
+  main h4,
+  body p{
+    font-size: 16px;
   }
+
+  main h3{
+    font-size: 18px;
+  }
+  
   #hero{
     height: 40vh;
   }
+
+  .mini-nav{
+    padding: 0 20px;
+  }
+  
+  .subtitle-heading{
+    padding: 0 20px;
+  }
+
   .cat-icons{
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 20px;
+    
+    
   }
-  .icon > img{
-    width: 150px;
+
+  .product-grid{
+    grid-template-columns: repeat(1, 1fr);
   }
+
 }
 
 @media (max-width: 767px) {
   .container{
-    padding: 40px 20px;
+    padding: 20px 0;
   }
   .flex img{
     width: 250px;
