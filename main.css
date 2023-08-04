@@ -131,7 +131,6 @@ button{
 
 /*Hero Section*/
 #hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url("/Assets/Images/whitesofa.jpg");
     background-position: center;
     background-attachment: fixed;
     height: 75vh;
@@ -142,14 +141,36 @@ button{
     align-items: center;
 }
 
-.text-container{
-    color: white;
-    text-align: center;
+.slideshow-container {
+  height: 75vh;
+  display: flex;
+  overflow: hidden;
 }
 
-.text-container p{
-  text-transform: capitalize;
-  font-size: 20px;
+.carousel-slide {
+  position: relative;
+  flex: 0 0 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  text-align: center;
+}
+
+.carousel-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.active-slide {
+  opacity: 1;
+}
+
+.slide-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
 }
 
 .hero-btn{
@@ -308,6 +329,15 @@ button{
     align-items: center;
 }
 
+.text-container{
+    color: white;
+    text-align: center;
+}
+
+.text-container p{
+  text-transform: capitalize;
+  font-size: 20px;
+}
 .banner-btn{
   background-color: transparent;
   color: white;
