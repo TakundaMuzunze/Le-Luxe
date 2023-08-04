@@ -1,14 +1,15 @@
-const imageSlide = document.querySelectorAll('carousel-slide');
+const slides = document.querySelectorAll('.carousel-slide');
 let currentSlide = 0;
 
 function showSlide(index) {
-    imageSlide[currentSlide].classList.remove('active-slide');
-    imageSlide[index].classList.add('active-slide');
-    currentSlide = index;
+  slides[currentSlide].classList.remove('active-slide');
+  slides[index].classList.add('active-slide');
+  currentSlide = index;
 }
-  
-  // Change slide every 5 seconds (adjust as needed)
-setInterval(() => {
-    const nextSlide = (currentSlide + 1) % imageSlide.length;
-    showSlide(nextSlide);
-}, 5000);
+
+function nextSlide() {
+  const nextSlideIndex = (currentSlide + 1) % slides.length;
+  showSlide(nextSlideIndex);
+}
+
+setInterval(nextSlide, 3500);
