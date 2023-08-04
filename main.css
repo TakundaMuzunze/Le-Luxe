@@ -131,8 +131,6 @@ button{
 
 /*Hero Section*/
 #hero{
-    background-position: center;
-    background-attachment: fixed;
     height: 75vh;
     width: 100%;
 
@@ -145,10 +143,10 @@ button{
   height: 75vh;
   display: flex;
   overflow: hidden;
+  position: relative;
 }
 
 .carousel-slide {
-  position: relative;
   flex: 0 0 100%;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -156,8 +154,20 @@ button{
 }
 
 .carousel-slide img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center center;
+}
+
+.carousel-slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
 }
 
 .active-slide {
