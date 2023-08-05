@@ -1,15 +1,16 @@
-const slides = document.querySelectorAll('.carousel-slide');
-let currentSlide = 0;
+let slideIndex = 0;
+showSlides();
 
-function showSlide(index) {
-  slides[currentSlide].classList.remove('active-slide');
-  slides[index].classList.add('active-slide');
-  currentSlide = index;
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("carousel-slide");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  } 
+  slides[slideIndex - 1].style.display = "block"; 
+  setTimeout(showSlides, 3500); // Change slide every 3.5 seconds
 }
-
-function nextSlide() {
-  const nextSlideIndex = (currentSlide + 1) % slides.length;
-  showSlide(nextSlideIndex);
-}
-
-setInterval(nextSlide, 3500);
