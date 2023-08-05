@@ -199,7 +199,6 @@ button{
 }
 
 .form-message p{
-    color: white;
     font-weight: bolder;
 }
 
@@ -361,6 +360,54 @@ input[type="submit"]:hover{
 }
 
 /*Media Queries*/
+@media (min-width: 320px) and (max-width: 479px){
+    body h1{
+        font-size: 24px;
+    }
+
+    .text-container{
+        padding: 20px;
+    }
+
+    .text-container p{
+        font-size: 16px;
+        min-width: 100%;
+    }
+
+    .container{
+        padding: 20px;
+    }
+
+    button{
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+
+    .contact-details{
+        text-align: center;
+        align-self: center;
+    }
+
+    .contact-area{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .input-field{
+        width: 300px;
+    }
+
+    .form-button{
+        align-self: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    #hero{
+        height: 50vh;
+    }
+}
+
 @media (min-width: 1024px) {
     .navbar {
       display: flex;
@@ -399,9 +446,5 @@ input[type="submit"]:hover{
       margin-left: 10px;
     }
     
-    /*Image effects*/
-    .js-zoom-effect{
-      cursor: pointer
-    }
-  }
+}
   
