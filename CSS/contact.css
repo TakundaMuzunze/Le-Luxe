@@ -155,6 +155,7 @@ button{
 }
 
 .text-container p{
+    font-size: 20px;
     width: 50%;
     margin: 0 auto;
 }
@@ -186,10 +187,28 @@ button{
 }
 
 #message{
-    height: 200px;
+    height: 150px;
 }
 
-.store-details h2,
+.form-message{
+    display: none;
+}
+
+.form-message-shown{
+    display: block;
+}
+
+.form-message p{
+    color: white;
+    font-weight: bolder;
+}
+
+.fa-check{
+    color: green;
+    margin-left: 5px;
+}
+
+.store-details h3,
 .store-details p{
     margin: 0;
 }
