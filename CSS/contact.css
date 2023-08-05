@@ -57,6 +57,14 @@ a{
     text-decoration: none;
 }
 
+button{
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+}
+
 /*Navigation Bars*/
 .navbar {
     font-size: 18px;
@@ -175,7 +183,6 @@ a{
     border-radius: 5px;
     margin-bottom: 15px;
     font-size: 16px;
-    color: white;
 }
 
 #message{
@@ -188,7 +195,7 @@ a{
 }
 
 .detail{
-    margin: 12px 0;
+    margin: 20px 0;
 }
 
 .store-details h2{
@@ -197,7 +204,31 @@ a{
 }
 
 .store-details p{
+    color: #505050;
     font-size: 18px;
+}
+ 
+.store-details i{
+    font-size: 14px;
+    padding-right: 8px;
+}
+
+.form-button{
+    background-color: transparent;
+    color: black;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.form-button:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+    transition: .5s; 
 }
 
 /*Footer Section*/
