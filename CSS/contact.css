@@ -152,7 +152,7 @@ a{
 }
 
 .container{
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .contact-area{
@@ -182,12 +182,22 @@ a{
     height: 200px;
 }
 
+.store-details h2,
+.store-details p{
+    margin: 0;
+}
+
+.detail{
+    margin: 12px 0;
+}
+
 .store-details h2{
     font-size: 28px;
+    font-weight: 400;
 }
 
 .store-details p{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /*Footer Section*/
