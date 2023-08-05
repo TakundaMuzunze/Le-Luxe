@@ -402,9 +402,27 @@ input[type="submit"]:hover{
     }
 }
 
-@media (min-width: 320px) and (max-width: 768px){
+@media (min-width: 320px) and (max-width: 1023px){
     #hero{
         height: 50vh;
+    }
+
+    .contact-details{
+        text-align: center;
+        align-self: center;
+    }
+
+    .contact-area{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .input-field{
+        width: 300px;
+    }
+
+    .form-button{
+        align-self: center;
     }
 }
 
