@@ -145,9 +145,49 @@ a{
     text-align: center;
     color: white;
 }
+
 .text-container p{
     width: 50%;
     margin: 0 auto;
+}
+
+.container{
+    padding: 20px 0;
+}
+
+.contact-area{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.get-in-touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-field{
+    width: 400px;
+    padding: 18px 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: white;
+}
+
+#message{
+    height: 200px;
+}
+
+.store-details h2{
+    font-size: 28px;
+}
+
+.store-details p{
+    font-size: 20px;
 }
 
 /*Footer Section*/
