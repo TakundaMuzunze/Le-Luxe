@@ -193,6 +193,7 @@ button{
 .hero-btn{
   background-color: transparent;
   color: white;
+  text-transform: uppercase;
   border: 2px solid white;
 }
 
