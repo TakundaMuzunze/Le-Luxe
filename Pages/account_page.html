@@ -17,7 +17,7 @@
     <span class="navbar-toggle-icon" id="js-navbar-toggle-icon">
       <i class="fa fa-bars"></i>
     </span>
-    <a href="index.html" class="logo">Le Luxe</a>
+    <a href="/index.html" class="logo">Le Luxe</a>
     <ul class="main-nav" id="js-menu">
       <li>
         <a href="/index.html" class="nav-links">Home</a>
@@ -69,37 +69,24 @@
     </div>
 
     <main>
-        <div class="container">
-            
-            <div class="signin-box">
-                <form action="" class="form">
-                    <h1>Sign up</h1>
-                    <p>Fill in details to create an account with Le Luxe</p>
-                    <p><a href="signin.html">Already have an account?</a></p>
-                    <div class="inputContainer">
-                      <input type="text" class="input" placeholder="a">
-                      <label for="" class="label">Email</label>
-                    </div>
-              
-                    <div class="inputContainer">
-                      <input type="text" class="input" placeholder="a">
-                      <label for="" class="label">Username</label>
-                    </div>
-              
-                    <div class="inputContainer">
-                      <input type="text" class="input" placeholder="a">
-                      <label for="" class="label">Password</label>
-                    </div>
-              
-                    <div class="inputContainer">
-                      <input type="text" class="input" placeholder="a">
-                      <label for="" class="label">Confirm Password</label>
-                    </div>
-              
-                    <button type="submit" class="form-button" id="submit" onclick="formValidation()">Sign up</button>                   
-                </form>
-            </div>
+      <div class="container">
+        <div class="title">
+          <h1>My account</h1>
+          <hr>
         </div>
+        <div class="login-area">
+          <h2>Login to your account</h2>
+          <form class="login" name="signin">
+            <label for="">Username or email address*</label>
+            <input type="text" class="input-field" id="username">
+            <label for="">Password*</label>
+            <input type="text" class="input-field" id="password">
+            <button class="form-button" id="submit">Log in</button>
+            <p>New member? <span class="hyperlink"><a href="#">create an account</a></span></p>
+          </form>
+        </div>
+      </div>
+           
     </main>
 
 
