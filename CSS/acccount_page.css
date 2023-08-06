@@ -418,6 +418,47 @@ input[type="submit"]:hover{
     .nav-icons a {
       margin-left: 10px;
     }
+
+    .dropdown-content, .row, .column {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+    }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .column {
+        float: left;
+        width: auto;
+        max-width: 100%; 
+        padding: 10px;
+      }
+      
+      .column a {
+        display: block;
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: black;
+        text-align: left;
+        padding: 16px;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
     
     /*Image effects*/
     .js-zoom-effect{
