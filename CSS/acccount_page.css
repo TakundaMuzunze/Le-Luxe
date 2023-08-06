@@ -167,6 +167,10 @@ button{
     text-transform: capitalize;
 }
 
+label{
+    color: #505050;
+}
+
 .input-field{
     width: 300px;
     padding: 10px 20px;
