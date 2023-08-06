@@ -483,7 +483,7 @@ input[type="submit"]:hover{
 /*Media Queries*/
 @media (min-width: 320px) and (max-width: 1023px){
   #hero{
-    height: 50vh;
+    height: 70vh;
     background-position: bottom;
   }
 
@@ -541,14 +541,6 @@ input[type="submit"]:hover{
     text-align: center;
     padding: 12px 0;
   }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-
 }
 
 @media (max-width:479px){ 
