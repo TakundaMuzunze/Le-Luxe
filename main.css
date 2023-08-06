@@ -483,15 +483,72 @@ input[type="submit"]:hover{
 /*Media Queries*/
 @media (min-width: 320px) and (max-width: 1023px){
   #hero{
-    height: 40vh;
+    height: 50vh;
     background-position: bottom;
   }
+
+  .carousel-slide:before{
+    height: 98%;
+  }
+
   .title-text{
     padding: 20px;
   }
+
   .sales-banner{
     height: 30vh;
   }
+
+  .dropdown-content, .row, .column {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    width: 100%;
+    top: 70px; 
+    left: 0;
+    display: none;
+    align-items: center;
+  }
+  
+  .dropdown-content .dropbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropbtn:focus + .dropdown-content {
+    display: flex;
+  }
+
+  
+  .column {
+    width: 100%; 
+    padding: 10px;
+  }
+  
+  .column a {
+    display: block;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 12px 0;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
 }
 
 @media (max-width:479px){ 
@@ -512,6 +569,18 @@ input[type="submit"]:hover{
   button{
     font-size: 14px;
     padding: 10px 20px;
+  }
+
+  .slide-content{
+    width: 80%;
+  }
+
+  .slide-content h1{
+    font-size: 24px;
+  }
+
+  .slide-content p{
+    font-size: 16px;
   }
   
   .title-text{
@@ -548,12 +617,6 @@ input[type="submit"]:hover{
   .cat-item > img{
     width: 150px;
   } 
-}
-
-@media (max-width: 767px) { 
-  .js-zoom-effect {
-    cursor: auto;
-  }
 }
 
 @media (min-width: 768px) and (max-width:1023px){
@@ -653,10 +716,6 @@ input[type="submit"]:hover{
     clear: both;
   }
   
-  /*Image effects*/
-  .js-zoom-effect{
-    cursor: pointer
-  }
 }
 
 @media (min-width: 1200px){
