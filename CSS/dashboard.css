@@ -37,6 +37,15 @@ h1{
     font-size: 36px;
 }
 
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
 .topbar-line{
     color: black;
     opacity: 50%;
@@ -149,6 +158,32 @@ button{
     font-weight: 400;
 }
 
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.user i{
+    font-size: 36px;
+}
+
+.content-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 20px;
+}
+
+.grid-item{
+    width: 250px;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 15px;
+}
 
 /*Footer Section*/
 .ft-main-item ul {
@@ -261,17 +296,6 @@ input[type="submit"]:hover{
 }
 
 /*Media Queries*/
-@media screen and (min-width: 768px) {
-    .input:focus + .label{
-        font-size: 14px;
-    }
-    .input:not(:placeholder-shown)+ .label{
-        font-size: 14px;
-    }
-    .label{
-        font-size: 16px;
-    }
-}
 
 @media (min-width: 320px) and (max-width: 1023px){
     .dropdown-content, .row, .column {
