@@ -35,6 +35,12 @@ const createAccount = (event) => {
     };
 
     userData.push(user);
+
+    // Store the updated userData array in Local Storage
+    localStorage.setItem('userData', JSON.stringify(userData));
+
+    // Redirect to the dashboard page after successful registration
+    window.location.href = '/Pages/dashboard.html';
 };
 
 registerButton.addEventListener('click', function(event) {
