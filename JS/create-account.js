@@ -3,10 +3,12 @@ const emailInput = document.getElementById('email');
 const nameInput = document.getElementById('fullname');
 const passwordInput = document.getElementById('password');
 
+const userData = [];
+
 const createAccount = (event) => {
     event.preventDefault();
 
-     if (passwordInput.value === "" && nameInput.value === "" && emailInput.value === ""){
+    if (passwordInput.value === "" && nameInput.value === "" && emailInput.value === ""){
         alert('Please fill out the form with your details');
         return false; 
     }
@@ -22,9 +24,17 @@ const createAccount = (event) => {
     }
 
     if (passwordInput.value === "" || passwordInput.value.length < 8) {
-        alert('Please enter a valid password');
+        alert('Please enter a valid password (at least 8 characters)');
         return false; 
     } 
+
+    const user = {
+        name: nameInput.value,
+        email: emailInput.value,
+        password: passwordInput.value,
+    };
+
+    userData.push(user);
 };
 
 registerButton.addEventListener('click', function(event) {
