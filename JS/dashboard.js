@@ -27,9 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {
   ];
 
   const billingData = [
-    { title: "Address", description: "Manage your billing address." },
+    { title: "Address", description: "Manage and update your billing address." },
     { title: "Card Details", description: "Update your payment card information." },
-    { title: "Payment History", description: "View your payment history." },
+    { title: "Payment History", description: "View your previous payment history." },
   ];
 
   const generateGridItems = (data) => {
@@ -67,3 +67,10 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+const logoutButton = document.getElementById('logout'); 
+
+logoutButton.addEventListener("click", function(){
+  localStorage.removeItem("authStatus");
+
+  window.location.href="account_page.html";
+});
