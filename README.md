@@ -13,10 +13,9 @@ Welcome to Le Luxe! This project aims to create a professional and sleek ecommer
 - **🌐 Responsive Design**: The website is designed to adapt to different screen sizes, providing an optimal viewing experience on desktops, tablets, and mobile devices.
 - **💎 Sleek and Professional Design**: The design of Le Luxe embodies elegance and sophistication, reflecting the high-end nature of the luxury furniture industry.
 - **✅ Form Validation**: Implementing client-side form validation ensures data integrity and enhances the user experience during registration, login, and checkout processes.
+- **🔐 User Authentication**: Implement user authentication to allow users to create accounts, log in, and manage their profiles.
 
 ## Planned Features (Future Enhancements) 🌟
-
-- **🔐 User Authentication**: Implement user authentication to allow users to create accounts, log in, and manage their profiles.
 - **🛒 Shopping Cart Functionality**: Enable users to add products to a shopping cart, review their selections, and proceed to checkout.
 - **💳 Payment Integration**: Integrate a secure payment gateway to facilitate seamless and secure transactions for users.
 
@@ -38,7 +37,6 @@ A live demo of the Le Luxe ecommerce website will be available soon.
 
 1. Clone this repository.
 2. Open the `index.html` file in your preferred web browser.
-
 
 ## Acknowledgments 💡
 
