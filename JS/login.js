@@ -20,4 +20,4 @@ const loginUser = (event) => {
 
 signinButton.addEventListener("click", function(event){
     loginUser(event);
-})
+});
